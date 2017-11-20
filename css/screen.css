@@ -1,0 +1,128 @@
+/* reset CSS */
+@import url("reset.css");
+
+/* Style général des tableaux */
+table{
+	border-collapse: collapse;
+	font-family: "Lucida Sans Unicode","Verdana",Sans-Serif;
+	color: #666666;
+	margin: 10px;
+	width: 80%;
+	text-align: center;
+}
+table>caption{ /* caption du tableau */
+    visibility: hidden;
+}
+
+/* corps des tableaux */
+table>tbody>tr>td, table>tbody>tr>th{ /* toutes les cellules de corps des tableaux */
+	border-bottom: 1px solid #CCCCCC;
+	padding: 5px;
+	vertical-align: middle;
+}
+table>tbody>tr>th{ /* cellules de titres de corps des tableaux */
+	font-weight: bold;
+	font-style: italic;
+	border-right: 1px solid #6678B1;
+	text-align: right;
+	padding: 10px;
+}
+table>tbody>tr:hover>td /* au survol des lignes */
+{
+background-color: #EEEEEE;
+color:#000099;
+}
+
+/* entêtes des tableaux */
+table>thead { /* style générale des entêtes de tableaux */
+	color: #003399;
+}
+table>thead>tr>th, table>thead>tr>td  { /* toutes les cellules des entêtes de tableaux */
+	padding: 5px;
+	vertical-align: middle;
+}
+table>thead>tr>th  { /* cellules de titres des entêtes de tableaux */
+	font-weight: bold;
+	padding: 10px;
+}
+table>thead>tr:first-child+tr>th { /* cellules de titres de la deuxième ligne des entêtes de tableaux */
+	font-style: italic;
+	color: #666699;
+	border-bottom: 1px solid #6678B1;
+}
+table>thead>tr:first-child>th:first-child { /* première cellule de titre de la première ligne des entêtes de tableaux */
+	text-align: right;
+}
+
+/* pieds de tableaux */
+table>tfoot { /* style générale des pieds de tableaux */
+	color: #003399;
+}
+table>tfoot>tr>th, table>tfoot>tr>td { /* toutes les cellules des pieds de tableaux */
+	padding: 5px;
+	vertical-align: middle;
+}
+table>tfoot>tr>th { /* les cellules de titre des pieds de tableaux */
+	font-weight: bold;
+	padding: 10px;
+}
+table>tfoot>tr>th:first-child { /* premières cellules de titre de chaque lignes des pieds de tableaux */
+	text-align: right;
+}
+
+/* sous tableaux */
+table table{
+	border-collapse: collapse;
+	margin: auto;
+}
+table table>tbody>tr>th{ /* cellules de titres des sous tableaux */
+	border-bottom : 1px solid #999999;
+	border-right : none;
+	padding: 10px;
+	text-align: center;
+}
+table table>tbody>tr>td{ /* cellules des sous tableaux */
+	padding: 10px;
+	border-bottom : none;
+	text-align: center;
+}
+
+/* aspect général */
+body{
+    font: 16px/1.5  Bentham, Baskerville, "Baskerville Old Face", "Times New Roman", Times, serif;
+    color: #333;
+    margin: auto;
+    background-color: white;
+}
+header, footer{
+	background-color: #F1F1F1;
+	padding: 1em 0;
+}
+footer{
+	margin-top: 2em;
+}
+main{
+    padding: 2em 2em 0 2em;
+}
+p{
+    margin: 1em 0;
+}
+h1{
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: center;
+}
+h2{
+    font-size: 1.5em;
+}
+footer p{
+    margin: 0 auto;
+	padding: 0 1em;
+    font-size: 0.8em;
+    text-align: right;
+    font-style: italic;
+}
+footer a{
+    color: black;
+    font-style: normal; 
+}

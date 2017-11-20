@@ -1,0 +1,4 @@
+/* Pour les tableaux */
+table, table>thead>tr:first-child+tr>th, table>thead>tr:first-child>th, table table th, table table td, table>tfoot>tr>th, table>tfoot>tr>td {
+	border: thin dashed #6678B1;
+}
