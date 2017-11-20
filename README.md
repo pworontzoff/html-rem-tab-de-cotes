@@ -16,19 +16,19 @@
 
 ## Tableau de cotes
 
-Vous trouverez dans ce dossier un fichier texte HTML nommé **index.html**. Cette page contient un tableau ainsi qu'un sous-tableau afin de présenter des cotes obtenus lors d'évaluations de HTML et CSS par des étudiants.
+Vous trouverez dans ce dossier un fichier texte HTML nommé **index.html**. Cette page contient un tableau ainsi qu'un sous-tableau afin de présenter des cotes obtenues lors d'évaluations de HTML et CSS par des étudiants.
 
 Votre but est 
 
-- de structurer les données dans un tableau de manière appropriée en prêtant une attention à divers aspects&nbsp;:
+- de structurer les données dans un tableau de manière appropriée en prêtant une attention particulière à divers aspects&nbsp;:
 	* quelles cellules sont des cellules de titres ou de données&nbsp;?
 	* quelles fusions de lignes et/ou de colonnes sont nécéssaires&nbsp;?
 	* quelles informations font partie de l'entête, du corps ou du pied du tableau&nbsp;?
-	* où inscrire le sous-tableau dans ce tableau et quelles cellules de ce sous-tableau dont des cellules de titres ou de données&nbsp;? 
+	* où inscrire le sous-tableau dans ce tableau et quelles cellules de ce sous-tableau sont des cellules de titres ou de données&nbsp;? 
 	* quand et où utiliser les attributs `scope` ou `headers` (en liaisons avec des `id`)&nbsp;?
 - de valider votre page
     
-Cet énoncé présente les rendus à obtenir (le code html donné prévoit un style alterné permettant de mieux visualiser les fusions de cellules) ainsi que la liste précise des balises et attributs à utiliser (obligatoirement).
+Cet énoncé présente les rendus à obtenir (le code html donné prévoit un style alterné permettant de mieux visualiser les fusions de cellules et le sous-tableau) ainsi que la liste précise des balises et attributs à utiliser (obligatoirement).
 
 * * *
 
@@ -45,8 +45,6 @@ Cet énoncé présente les rendus à obtenir (le code html donné prévoit un st
 * * *
 
 ## Voici la liste des balises et attributs à utiliser (obligatoirement)&nbsp;:
-
-Pour bien utiliser ces balises et ces différents attributs, assurez-vous de bien comprendre leur sémantiques et leur utilisations.
 
 #### Les balises à utiliser (obligatoirement)&nbsp;:
 
@@ -66,6 +64,8 @@ Pour bien utiliser ces balises et ces différents attributs, assurez-vous de bie
 - `scope`
 - `id`
 - `headers`
+
+Pour bien utiliser ces balises et ces différents attributs, assurez-vous de bien comprendre leur sémantiques et leur utilisations.
 
 * * *
 
