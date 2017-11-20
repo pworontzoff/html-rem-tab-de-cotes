@@ -16,4 +16,4 @@
 
 ## Tableau de cotes
 
-Voici une solution de cet énoncé !
+Voici une solution de cet énoncé&nbsp;!
