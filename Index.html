@@ -25,33 +25,33 @@
         <main>
             <section>
                 <h2>Cotes XHTML/CSS</h2>
-                Tableau dont l'intitulé est "Points en HTML/CSS" :
-                
-                Entête :
-                
-                Etudiant              HTML                CSS
-                                      Interro 1 Interro 2 Interro 1 Interro 2
-
-                Corps :
-                
-                Lagaffe Gaston        4 / 10    abs       m'enfin ! 0 / 10
-                Moizelle Jeanne       abs       abs       abs       abs
-                Fantasio              9 / 10    10 / 10   exc       10 / 10
-                Prunelle              10 / 10   9 / 10    10 / 10   10 / 10
-                Le chat               Miaouw    0 / 10    *(st)     0  / 10
-                
-                Pied :
-                
-                Moyennes par interros 7.7 / 10  6.3 / 10  5 / 10    5 / 10
-                Moyennes par matière  7 / 10              5 / 10
-                Moyenne générale      6 / 10
-                
-                * (st : sous-tableau dont l'intitulé est "Détail première et deuxième heure") :
-                
-                Corps :
-                
-                Première heure Deuxième heure
-                abs            0 / 10
+                <table>
+                    <caption>Points en HTML/CSS</caption>
+                    <thead>
+                        <tr><th rowspan="2" id="et">Etudiant</th>             <th colspan="2" id="part1">HTML</th>           <!--th></th-->                                 <th colspan="2" id="part2"> CSS</th>           <!--th></th-->                                 </tr>
+                        <tr><!--th></th-->                                    <th scope="col" headers="part1">Interro 1</th> <th scope="col" headers="part1">Interro 2</th> <th scope="col" headers="part2">Interro 1</th> <th scope="col" headers="part2">Interro 2</th> </tr>
+                    </thead>                    
+                    <tbody>
+                        <tr><th headers="et" scope="row">Lagaffe Gaston</th>  <td>4 / 10</td>                                <td>abs</td>                                   <td>m'enfin !</td>                             <td>0 / 10</td>                                </tr>
+                        <tr><th headers="et" scope="row">Moizelle Jeanne</th> <td>abs</td>                                   <td>abs</td>                                   <td>abs</td>                                   <td>abs</td>                                   </tr>
+                        <tr><th headers="et" scope="row">Fantasio</th>        <td>9 / 10</td>                                <td>10 / 10</td>                               <td>exc</td>                                   <td>10 / 10</td>                               </tr>
+                        <tr><th headers="et" scope="row">Prunelle</th>        <td>10 / 10</td>                               <td>9 / 10</td>                                <td>10 / 10</td>                               <td>10 / 10</td>                               </tr>
+                        <tr><th headers="et" scope="row">Le chat</th>         <td>Miaouw</td>                                <td>0 / 10</td>                                <td>
+                                                                                                                                                                                 <table>
+                                                                                                                                                                                     <caption>Détail première et deuxième heure</caption>
+                                                                                                                                                                                     <tbody>
+                                                                                                                                                                                         <tr><th>Première heure</th><th>Deuxième heure</th> </tr>
+                                                                                                                                                                                         <tr><td>abs</td>           <td>0 / 10</td>         </tr>
+                                                                                                                                                                                     </tbody>
+                                                                                                                                                                                 </table>
+                                                                                                                                                                            </td>                                          <td>0 / 10</td>                                </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr><th scope="row">Moyennes par interros</th>        <td>7.7 / 10</td>                              <td>6.3 / 10</td>                              <td>5 / 10</td>                                <td>5 / 10</td>                                </tr>
+                        <tr><th scope="row">Moyennes par matière</th>         <td colspan="2">7 / 10</td>                    <!--td></td-->                                 <td colspan="2">5 / 10</td>                    <!--td></td-->                                 </tr>
+                        <tr><th scope="row">Moyenne générale</th>             <td colspan="4">6 / 10</td>                    <!--td></td-->                                 <!--td></td-->                                 <!--td></td-->                                 </tr>
+                    </tfoot>
+                </table>
             </section>
         </main>
         <footer>
