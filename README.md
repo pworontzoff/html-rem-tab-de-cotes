@@ -16,7 +16,7 @@
 
 ## Tableau de cotes
 
-Vous trouverez dans ce dossier un fichier texte HTML nommé **index.html**. Cette page contient un tableau ainsi qu'un sous-tableau afin de présenter des cotes obtenues lors d'évaluations de HTML et CSS par des étudiants.
+Vous trouverez dans ce dossier un fichier texte HTML nommé **index.html**. Cette page contiendra un tableau ainsi qu'un sous-tableau afin de présenter des cotes obtenues lors d'évaluations de HTML et CSS par des étudiants.
 
 Votre but est 
 
